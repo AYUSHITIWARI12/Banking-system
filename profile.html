@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Banking</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" href="style3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="main1">
+    <div class="logo">
+        <img src="vvv.jpg">
+    </div>
+         <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <ul>
+<li><a href="index2.php">Home
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+</svg></a></li>
+<li><a href="transfer.php"> Settings
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+  <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+  <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+</svg></a></li>
+</ul>
+<div class="heading">
+ <h1><b>USER PROFILE</b></h1>
+ </div>
+   <div class="container">
+   <center><h3><b>EDIT DETAILS
+   </b></h3></center>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputName" class="form-label">Name</label>
+    <input type="text" class="form-control" id="inputName">
+  </div>
+  <div class="col-md-6">
+    <label for="inputAccNum" class="form-label">Account Number</label>
+    <input type="text" class="form-control" id="inputAccNum">
+  </div>
+  <div class="col-12">
+    <label for="inputCIF" class="form-label">CIF Number</label>
+    <input type="text" class="form-control" id="inputCIF" placeholder="CIF Number">
+  </div>
+  <div class="col-12">
+    <label for="inputbrcode" class="form-label">Branch Code</label>
+    <input type="text" class="form-control" id="inputbrcode" placeholder="Branch Code">
+  </div>
+  <div class="col-12">
+    <label for="inputbank" class="form-label">Choose Bank</label>
+    <select id="inputbank" class="form-select">
+      <option selected>BANK</option>
+      <option>SBI</option>
+      <option>AXIS BANK</option>
+       <option>NET BANKING</option>
+    </select>
+</div>
+<div class="col-md-6">
+    <label for="inputPhoneNum" class="form-label">Phone Number</label>
+    <input type="Number" class="form-control" id="inputPhoneNum">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+
+  <div class="col-md-6" style="top:50px">
+   <label for="inputState" class="form-label">State</label>
+   <select id="inputState" class="form-select">
+      <option selected>State</option>
+      <option>Arunachal Pradesh</option>
+      <option>Madhya Pradesh</option>
+      <option>Uttar Pradesh</option>
+
+    </select>
+  </div>
+ <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+
+  <div class="col-md-4">
+   <label for="inputPassword4" class="form-label">Password</label>
+     <input type="password" class="form-control" id="inputPassword4">
+</div>
+
+    <div class="col-md-6" style="top:65px">
+        <input type="button" class=" btn btn3" value="save" onclick="alert('Profile Updated')">
+    </div>
+</form>
+
+</header>
+ <script>
+        $(window).on("load",function(){
+            $(".loader-container").fadeOut(1000);
+        });
+    </script>
+</body>
+</html>
