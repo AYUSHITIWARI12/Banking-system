@@ -16,6 +16,7 @@ Net-Banking (PHP,JS,HTML,CSS/Bootstrap)
 --VIEW CUSTOMER--{CHOOSE CUSTOMER TO WHOM YOU WANT TO TRANSFER MONEY}
 
 ![DELL - Screenshot (3835)](https://user-images.githubusercontent.com/47920126/112752995-73597700-8ff3-11eb-983e-f67c3542013a.png)
+
 ![DELL - Screenshot (3836)](https://user-images.githubusercontent.com/47920126/112752997-75233a80-8ff3-11eb-927c-ada5747a842f.png)
 
 --TRANSFER MONEY--
@@ -24,8 +25,14 @@ Net-Banking (PHP,JS,HTML,CSS/Bootstrap)
 
 --PAYMENT--/{PAYEMENT CONFIRMATION}
 ![DELL - Screenshot (3838)](https://user-images.githubusercontent.com/47920126/112753001-78b6c180-8ff3-11eb-92a3-433336a6a67d.png)
+
 ![DELL - Screenshot (3839)](https://user-images.githubusercontent.com/47920126/112753004-7ce2df00-8ff3-11eb-991c-9b32e00f2246.png)
+
+
 --NOTIFICATION POPUP--
+![DELL - Screenshot (3840)](https://user-images.githubusercontent.com/47920126/112753124-eb27a180-8ff3-11eb-9de6-5f03ebcce1ce.png)
+
+![DELL - Screenshot (3841)](https://user-images.githubusercontent.com/47920126/112753125-ec58ce80-8ff3-11eb-8f05-f68903d3a00f.png)
 
 
 --CURRENT BALANCE--
